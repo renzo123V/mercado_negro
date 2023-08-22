@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mercado Negro</title>
+  </head>
+  <body>
+    <h1>Mercado Negro</h1>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" /><br /><br />
+
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido" /><br /><br />
+
+      <label for="genero">Género:</label>
+      <input
+        type="radio"
+        id="genero"
+        name="genero"
+        value="masculino"
+      />Masculino
+      <input type="radio" id="genero" name="genero" value="femenino" />Femenino
+      <input
+        type="radio"
+        id="genero"
+        name="genero"
+        value="otro"
+      />Otro<br /><br />
+
+      <label for="accion">Accion:</label>
+      <select id="accion" name="accion">
+        <option value="generar">Generación de productos</option>
+        <option value="anadir">Añadir producto</option>
+        <option value="enumerar">Enumerar productos</option>
+        <option value="eliminar">Eliminar productos</option>
+        <option value="descripcion">Descripción</option> </select
+      ><br /><br />
+
+      <label for="descripcion">Descripción:</label><br />
+      <textarea
+        id="descripcion"
+        name="descripcion"
+        rows="4"
+        cols="50"
+      ></textarea
+      ><br /><br />
+
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
